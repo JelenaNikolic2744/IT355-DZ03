@@ -1,3 +1,6 @@
 com\mycompany\domacibr02\model\Rezervacija.class
+com\mycompany\domacibr02\aop\DodajRezI.class
 com\mycompany\domacibr02\HelloController.class
 com\mycompany\domacibr02\RezervacijaController.class
+com\mycompany\domacibr02\aop\RezInterface.class
+com\mycompany\domacibr02\aop\InterceptorLog.class
