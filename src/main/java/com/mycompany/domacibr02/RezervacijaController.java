@@ -47,8 +47,8 @@ public class RezervacijaController {
         
         return new ModelAndView("rezervacija", "command", new Rezervacija());
     }
-
     
+   
     @RequestMapping(value = "/addRezervacija", method = RequestMethod.POST)
     public String rezervacija(@ModelAttribute Rezervacija rezervacija, ModelMap model) {
         model.addAttribute("ime", rezervacija.getIme());
