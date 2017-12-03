@@ -3,5 +3,7 @@ com\mycompany\domacibr02\aop\DodajRezI.class
 com\mycompany\domacibr02\HelloController.class
 com\mycompany\domacibr02\RezervacijaController.class
 com\mycompany\domacibr02\aop\RezInterface.class
+com\mycompany\domacibr02\ProizvodService.class
 com\mycompany\domacibr02\interceptors\LoggingInterceptor.class
 com\mycompany\domacibr02\aop\InterceptorLog.class
+com\mycompany\domacibr02\ProizvodBean.class

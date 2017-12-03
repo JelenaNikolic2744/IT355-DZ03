@@ -47,7 +47,7 @@ i.glyphicon.glyphicon-menu-hamburger {
 }
 /*--banner--*/
 .header{
-	background:url(../images/2.jpg) no-repeat left;
+	background:url(../img/2.jpg) no-repeat left;
 	width:100%;
 	background-size:cover;
 	min-height:750px;
@@ -141,7 +141,7 @@ i.glyphicon.glyphicon-menu-hamburger {
   transform: rotateX(-180deg);
 }
 .hover-fold .front {
-  background: url(../images/aa.jpg) top;
+  background: url(../img/aa.jpg) top;
   height: 100%;
   /*has to be 100% of .top */
   width: 100%;
@@ -164,7 +164,7 @@ i.glyphicon.glyphicon-menu-hamburger {
   line-height:2em;
 }
 .hover-fold .bottom {
-  background: url(../images/aa.jpg) bottom;
+  background: url(../img/aa.jpg) bottom;
   height: 50%;
   position: absolute;
   top: 50%;
@@ -172,16 +172,16 @@ i.glyphicon.glyphicon-menu-hamburger {
   z-index: 0;
 }
 .hover-fold .front1 {
-  background: url(../images/aa1.jpg) top;
+  background: url(../img/aa1.jpg) top;
 }
 .hover-fold .bottom1{
-  background: url(../images/aa1.jpg) bottom;
+  background: url(../img/aa1.jpg) bottom;
 }
 .hover-fold .front2 {
-  background: url(../images/aa2.jpg) top;
+  background: url(../img/aa2.jpg) top;
 }
 .hover-fold .bottom2{
-  background: url(../images/aa2.jpg) bottom;
+  background: url(../img/aa2.jpg) bottom;
 }
 /*--content--*/
 .content-top-top {
@@ -358,7 +358,7 @@ ul.grid-news li b {
 }
 /*--conent--*/
 .content-item {
-  background: url(../images/ne.jpg) no-repeat;
+  background: url(../img/ne.jpg) no-repeat;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -368,13 +368,13 @@ ul.grid-news li b {
   z-index: 9999;
 }
 .content-item1 {
-  background: url(../images/ne1.jpg) no-repeat;
+  background: url(../img/ne1.jpg) no-repeat;
 }
 .content-item2 {
-  background: url(../images/ne2.jpg) no-repeat;
+  background: url(../img/ne2.jpg) no-repeat;
 }
 .content-item3 {
-  background: url(../images/ne3.jpg) no-repeat;
+  background: url(../img/ne3.jpg) no-repeat;
 }
 .content-item .overlay {
   border-bottom: 100px solid #97824b;
@@ -484,7 +484,7 @@ p.footer-class a:hover{
     width: 40px;
     height: 40px;
     display: block;
-	background:  url(../images/img-sprite.png)no-repeat 0px 2px;
+	background:  url(../img/img-sprite.png)no-repeat 0px 2px;
     margin: 0 0.5em;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -494,31 +494,31 @@ p.footer-class a:hover{
 	    border:3px double #97824b;
 }
 .social-ic li a i:hover {
-	background: #97824b url(../images/img-sprite.png)no-repeat 0px 2px;
+	background: #97824b url(../img/img-sprite.png)no-repeat 0px 2px;
 }
 .social-ic li a i.ic {
-	background: url(../images/img-sprite.png)no-repeat -75px 2px;
+	background: url(../img/img-sprite.png)no-repeat -75px 2px;
 }
 .social-ic li a i.ic:hover {
-	background: #97824b url(../images/img-sprite.png)no-repeat -75px 2px;
+	background: #97824b url(../img/img-sprite.png)no-repeat -75px 2px;
 }
 .social-ic li a i.ic1 {
-	background: url(../images/img-sprite.png)no-repeat -145px 2px;
+	background: url(../img/img-sprite.png)no-repeat -145px 2px;
 }
 .social-ic li a i.ic1:hover {
-	background: #97824b url(../images/img-sprite.png)no-repeat -145px 2px;
+	background: #97824b url(../img/img-sprite.png)no-repeat -145px 2px;
 }
 .social-ic li a i.ic2 {
-	background: url(../images/img-sprite.png)no-repeat -229px 2px;
+	background: url(../img/img-sprite.png)no-repeat -229px 2px;
 }
 .social-ic li a i.ic2:hover {
-	background: #97824b url(../images/img-sprite.png)no-repeat -229px 2px;
+	background: #97824b url(../img/img-sprite.png)no-repeat -229px 2px;
 }
 .social-ic li a i.ic3 {
-	background: url(../images/img-sprite.png)no-repeat -305px 2px;
+	background: url(../img/img-sprite.png)no-repeat -305px 2px;
 }
 .social-ic li a i.ic3:hover {
-	background: #97824b url(../images/img-sprite.png)no-repeat -305px 2px;
+	background: #97824b url(../img/img-sprite.png)no-repeat -305px 2px;
 }
 /*--//footer--*/
 /*--about--*/
@@ -868,7 +868,7 @@ i.glyphicon.glyphicon-comment {
 }
 .lone-line p:before {
     content: "";
-    background: url(../images/qu3.png) no-repeat;
+    background: url(../img/qu3.png) no-repeat;
     width: 30px;
     height:24px;
     display: inline-block;
@@ -1034,7 +1034,7 @@ p.reply a i{
 .search input[type="submit"] {	
 	width: 30px;
 	height: 30px;
-	background: url(../images/search.png)no-repeat 0px 10px ;
+	background: url(../img/search.png)no-repeat 0px 10px ;
 	padding: 0px 1px;
 	border: none;
 	cursor: pointer;
@@ -1053,7 +1053,7 @@ p.reply a i{
 .popular li i{
 	width: 17px;
   height: 17px;
-  background: url(../images/img-sprite.png)no-repeat -562px -40px;
+  background: url(../img/img-sprite.png)no-repeat -562px -40px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 16px;

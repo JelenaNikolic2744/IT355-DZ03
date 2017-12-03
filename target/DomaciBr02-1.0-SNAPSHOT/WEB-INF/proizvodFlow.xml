@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+        http://www.springframework.org/schema/webflow/spring-webflow-2.4.xsd">
+    
+    <var name="proizvodBean" class="com.mycompany.domacibr02.ProizvodBean" />
+    <view-state id="displayLoginView" view="jsp/proizvodFlow.jsp" model="proizvodBean">
+        <transition on="performAction" to="performActionAction" />
+    </view-state>
+    <action-state id="performActionAction">
+        <evaluate expression="proizvodService.proveraProizvoda(proizvodBean)" />
+        <transition on="true" to="displaySuccess" />
+        <transition on="false" to="displayError" />
+    </action-state>
+    <view-state id="displaySuccess" view="jsp/dobro.jsp" model="proizvodBean"/>
+    <view-state id="displayError" view="jsp/lose.jsp" />
+</flow>
