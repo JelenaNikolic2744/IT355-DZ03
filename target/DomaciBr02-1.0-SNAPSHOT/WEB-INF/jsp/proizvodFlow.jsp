@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 <%@ page isELIgnored="false"%>
 <html>
@@ -11,7 +12,7 @@
     </head>
     <body>
         <div class="text">
-            <img src="img/me4.png"/>
+            <img src="<c:url value="/img/me4.jpg"/>" alt=""/>
             <form method="post" action="${flowExecutionUrl}">
                 <input type="hidden" name="_eventId" value="performAction"/>
                 <input type="hidden" name="_flowExecutionKey" value="${flowExecutionKey}" />
@@ -22,7 +23,7 @@
                 <label class="radio-inline"><input type="radio" name="proizvod" value="pohovaniKackavalj"> Pohovani kackavalj</label><br>
                 <input type="submit" class="btn btn-default" value="Probaj" />
             </form>
-            <a href="http://localhost:8084/DomaciBr02/hello"><span class="label label-primary">Početna strana</span></a>
+            <a class="active" href="http://localhost:8084/DomaciBr02/hello">Home</a>
         </div>
     </body>
 </html>

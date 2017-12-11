@@ -52,7 +52,7 @@
         <div class="header">
             <div class="container">
                 <div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
-                    <h1><a href="hello.jsp"><span>C</span><img src="<c:url value="/img/oo.png"/>" alt=""><img src="<c:url value="/img/oo.png"/>" alt="">kery</a></h1>
+                    <h1><a href="hello.jsp"><span>C</span><img src="<c:url value="/img/oo.png"/>" alt=""/><img src="<c:url value="/img/oo.png"/>" alt=""/>kery</a></h1>
                 </div>                                                      
                 <div class="nav-icon">		
                     <a href="#" class="navicon"></a>
@@ -110,7 +110,7 @@
                 <p class="animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">Sed ut perspiciatis unde omnis iste natus.</p>
                 <label></label>
                 <h4 class="animated wow fadeInTop" data-wow-duration="1000ms" data-wow-delay="500ms">Hello And Welcome To Food</h4>
-                <a class="scroll down" href="#content-down"><img src="<c:url value="/img/down.png"/>" alt=""></a>
+                <a class="scroll down" href="#content-down"><img src="<c:url value="/img/down.png"/>" alt=""/></a>
             </div>
         </div>
         <!--content-->
@@ -217,7 +217,7 @@
                         <div class="col-md-7 service-bottom animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
                             <div class=" service-bottom1">
                                 <div class=" ser-bottom">
-                                    <img src="<c:url value="/img/sa.png"/>" class="img-responsive" alt="">
+                                    <img src="<c:url value="/img/sa.png"/>" class="img-responsive" alt=""/>
                                 </div>
                                 <div class="ser-top "> 
                                     <h5>Beautiful &amp; enjoyable designs</h5>
@@ -227,7 +227,7 @@
                             </div>
                             <div class=" service-bottom1">
                                 <div class=" ser-bottom">
-                                    <img src="<c:url value="/img/sal.png"/>" class="img-responsive" alt="">
+                                    <img src="<c:url value="/img/sal.png"/>" class="img-responsive" alt=""/>
                                 </div>
                                 <div class="ser-top "> 
                                     <h5>Beautiful &amp; enjoyable designs</h5>
@@ -237,7 +237,7 @@
                             </div>
                             <div class=" service-bottom1">
                                 <div class=" ser-bottom">
-                                    <img src="<c:url value="/img/sa2.png"/>" class="img-responsive" alt="">
+                                    <img src="<c:url value="/img/sa2.png"/>" class="img-responsive" alt=""/>
                                 </div>
                                 <div class="ser-top "> 
                                     <h5>Beautiful &amp; enjoyable designs</h5>

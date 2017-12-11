@@ -11,7 +11,7 @@
     </head>
     <body>
         <div class="alert alert-danger" role="alert">
-            <b>Odgovor nije dobar, pokušajte ponovo <a href="http://localhost:8084/IT355-DZ04/proizvodFlow">kliknite ovde</a>.
+            <b>Odgovor nije dobar, pokušajte ponovo <a href="http://localhost:8084/DomaciBr02/proizvodFlow">kliknite ovde</a>.
         </div>
         <div class="text">
             <a href="http://localhost:8084/DomaciBr02/hello"><span class="label label-primary">Početna stranica</span></a>

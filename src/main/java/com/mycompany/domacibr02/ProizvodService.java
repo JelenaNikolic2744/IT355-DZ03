@@ -5,18 +5,21 @@
  */
 package com.mycompany.domacibr02;
 
+import org.springframework.stereotype.Service;
+
 /**
  *
  * @author Jeca
  */
+@Service
 public class ProizvodService {
     
     public String proveraProizvoda(ProizvodBean proizvodBean) {
         String proizvod = proizvodBean.getProizvod();
-        //if (proizvod.equals("pohovanaLignja")) {
+        if (proizvod.equals("pohovanaLignja")) {
             return "true";
-        /*} else {
+        } else {
             return "false";
-        }*/
+        }
     }
 }
